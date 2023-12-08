@@ -1,0 +1,29 @@
+server:
+  port: 8088
+  servlet:
+    context-path: /api
+  reactive:
+    session:
+      cookie:
+        max-age: 2592000
+spring:
+  profiles:
+    active: dev
+  #session????
+  session:
+    timeout: 86400
+  datasource:
+    driver-class-name: ${yangmao.datasource.driver-class-name}
+    url: jdbc:mysql://${yangmao.datasource.host}:${yangmao.datasource.port}/${yangmao.datasource.database}?serverTimezone=Asia/Shanghai&useUnicode=true&characterEncoding=utf-8&zeroDateTimeBehavior=convertToNull&useSSL=false&allowPublicKeyRetrieval=true
+    username: ${yangmao.datasource.username}
+    password: ${yangmao.datasource.password}
+
+mybatis-plus:
+  configuration:
+    map-underscore-to-camel-case: false
+  global-config:
+    db-config:
+      logic-delete-field: isDelete
+      logic-delete-value: 1
+      logic-not-delete-value: 0
+
