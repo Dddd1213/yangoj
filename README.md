@@ -1,2 +1,2 @@
 # yangoj
-手码oj项目
+oj项目
