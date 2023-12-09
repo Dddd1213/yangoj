@@ -1,6 +1,6 @@
 package com.yangmao.yangoj.mapper;
 
-import com.yangmao.yangoj.model.entity.User;
+import com.yangmao.yangoj.model.entity.Question;
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 
@@ -13,6 +13,6 @@ import org.apache.ibatis.annotations.Mapper;
  * @since 2023-12-08
  */
 @Mapper
-public interface UserMapper extends BaseMapper<User> {
+public interface QuestionMapper extends BaseMapper<Question> {
 
 }

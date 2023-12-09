@@ -2,7 +2,7 @@ package com.yangmao.yangoj.interceptor;
 
 import com.yangmao.yangoj.common.enumeration.ErrorCode;
 import com.yangmao.yangoj.common.exception.BusinessException;
-import com.yangmao.yangoj.pojo.entity.User;
+import com.yangmao.yangoj.model.entity.User;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 import org.springframework.web.method.HandlerMethod;

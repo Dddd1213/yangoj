@@ -1,6 +1,5 @@
-package com.yangmao.yangoj.pojo.DTO.user;
+package com.yangmao.yangoj.model.DTO.user;
 
-import io.swagger.annotations.ApiModel;
 import lombok.Data;
 
 import java.io.Serializable;

@@ -2,8 +2,8 @@ package com.yangmao.yangoj.service;
 
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.yangmao.yangoj.pojo.VO.user.UserVO;
-import com.yangmao.yangoj.pojo.entity.User;
+import com.yangmao.yangoj.model.VO.UserVO;
+import com.yangmao.yangoj.model.entity.User;
 
 import javax.servlet.http.HttpServletRequest;
 

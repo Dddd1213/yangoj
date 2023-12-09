@@ -1,6 +1,7 @@
 package com.yangmao.yangoj.common.enumeration;
 
 public enum ErrorCode {
+    //自定义错误码
     SUCCESS(0, "ok"),
     PARAMS_ERROR(40000, "请求参数错误"),
     NOT_LOGIN_ERROR(40100, "未登录"),

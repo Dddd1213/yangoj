@@ -1,11 +1,10 @@
-package com.yangmao.yangoj.pojo.VO.user;
+package com.yangmao.yangoj.model.VO;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import lombok.Builder;
 import lombok.Data;
 
 import java.io.Serializable;
-import java.time.LocalDateTime;
 import java.util.Date;
 
 /**

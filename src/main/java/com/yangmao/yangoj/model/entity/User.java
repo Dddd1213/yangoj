@@ -1,4 +1,4 @@
-package com.yangmao.yangoj.pojo.entity;
+package com.yangmao.yangoj.model.entity;
 
 import com.baomidou.mybatisplus.annotation.*;
 

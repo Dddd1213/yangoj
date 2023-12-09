@@ -61,6 +61,12 @@
             <artifactId>knife4j-spring-boot-starter</artifactId>
             <version>3.0.3</version>
         </dependency>
+<!--        hutool工具包，里面有JSONUtil-->
+        <dependency>
+            <groupId>cn.hutool</groupId>
+            <artifactId>hutool-json</artifactId>
+            <version>5.8.9</version>
+        </dependency>
 
 
     </dependencies>
