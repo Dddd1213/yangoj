@@ -46,7 +46,7 @@ public class QuestionVO implements Serializable {
     private Date updateTime;
 
     /**
-     * VO转包装类
+     * VO转对象
      * @param questionVO
      * @return
      */
@@ -74,7 +74,7 @@ public class QuestionVO implements Serializable {
     }
 
     /**
-     * 包装类转VO
+     * 对象转VO
      * @param question
      * @return
      */

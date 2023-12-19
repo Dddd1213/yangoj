@@ -34,7 +34,7 @@ public class WebMvcConfiguration extends WebMvcConfigurationSupport {
     protected void addInterceptors(InterceptorRegistry registry) {
         log.info("开始注册登录拦截器...");
         registry.addInterceptor(loginInterceptor)
-                .addPathPatterns("/user/**","/chart/**")
+                .addPathPatterns("/**/**")
                 .excludePathPatterns("/**/login","/**/register");
     }
 

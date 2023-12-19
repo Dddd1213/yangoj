@@ -26,4 +26,6 @@ mybatis-plus:
       logic-delete-field: isDelete
       logic-delete-value: 1
       logic-not-delete-value: 0
-
+#代码沙箱配置
+codesandbox:
+  type: example

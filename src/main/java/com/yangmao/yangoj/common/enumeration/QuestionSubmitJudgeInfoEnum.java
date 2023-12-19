@@ -1,8 +1,9 @@
 package com.yangmao.yangoj.common.enumeration;
 
-public enum JudgeInfoEnum {
+public enum QuestionSubmitJudgeInfoEnum {
 
     //判题信息枚举
+    WAITING("待判题","waiting"),
     ACCEPTED("成功","Accepted"),
     WRONG_ANSWER("答案错误","Wrong Answer"),
     COMPILE_ERROR("编译错误","Compile Error"),
@@ -15,7 +16,7 @@ public enum JudgeInfoEnum {
 
     private final String text;
     private final String value;
-    JudgeInfoEnum(String text,String value){
+    QuestionSubmitJudgeInfoEnum(String text, String value){
         this.text=text;
         this.value=value;
     }
@@ -25,4 +26,18 @@ public enum JudgeInfoEnum {
     public String getText() {
         return text;
     }
+
+    public static QuestionSubmitJudgeInfoEnum getEnumByText(String text){
+        if(text==null){
+            return null;
+        }
+
+        for(QuestionSubmitJudgeInfoEnum judgeInfoEnum: QuestionSubmitJudgeInfoEnum.values()){
+            if(judgeInfoEnum.text.equals(text)){
+                return judgeInfoEnum;
+            }
+        }
+        return null;
+    }
+
 }
