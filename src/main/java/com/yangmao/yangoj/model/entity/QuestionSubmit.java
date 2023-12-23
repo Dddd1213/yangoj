@@ -1,19 +1,15 @@
 package com.yangmao.yangoj.model.entity;
 
-import cn.hutool.json.JSONUtil;
 import com.baomidou.mybatisplus.annotation.*;
 
 import java.io.Serializable;
 import java.util.Date;
 
-import com.yangmao.yangoj.model.DTO.questionSubmit.JudgeInfo;
-import com.yangmao.yangoj.model.VO.QuestionSubmitVO;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 import lombok.EqualsAndHashCode;
 import lombok.experimental.Accessors;
-import org.springframework.beans.BeanUtils;
 
 /**
  * <p>

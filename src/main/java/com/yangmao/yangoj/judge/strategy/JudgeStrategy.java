@@ -1,6 +1,6 @@
 package com.yangmao.yangoj.judge.strategy;
 
-import com.yangmao.yangoj.model.DTO.questionSubmit.JudgeInfo;
+import com.yangmao.yangoj.judge.codesandbox.model.JudgeInfo;
 
 /**
  * 判题策略

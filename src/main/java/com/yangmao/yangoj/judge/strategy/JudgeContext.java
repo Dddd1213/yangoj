@@ -1,8 +1,7 @@
 package com.yangmao.yangoj.judge.strategy;
 
-import com.yangmao.yangoj.judge.codesandbox.model.ExecuteCodeResponse;
 import com.yangmao.yangoj.model.DTO.question.JudgeConfig;
-import com.yangmao.yangoj.model.DTO.questionSubmit.JudgeInfo;
+import com.yangmao.yangoj.judge.codesandbox.model.JudgeInfo;
 import lombok.Data;
 
 import java.util.List;

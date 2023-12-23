@@ -1,4 +1,4 @@
-package com.yangmao.yangoj.model.DTO.questionSubmit;
+package com.yangmao.yangoj.judge.codesandbox.model;
 
 import lombok.Data;
 
@@ -9,7 +9,7 @@ import lombok.Data;
 public class JudgeInfo {
 
     /**
-     * 程序执行信息
+     * 程序执行信息(Enum)
      */
     private String message;
     /**

@@ -1,17 +1,14 @@
 package com.yangmao.yangoj.judge.strategy.impl;
 
-import cn.hutool.json.JSONUtil;
 import com.yangmao.yangoj.common.enumeration.QuestionSubmitJudgeInfoEnum;
 import com.yangmao.yangoj.judge.strategy.JudgeContext;
 import com.yangmao.yangoj.judge.strategy.JudgeStrategy;
-import com.yangmao.yangoj.model.DTO.question.JudgeCase;
 import com.yangmao.yangoj.model.DTO.question.JudgeConfig;
-import com.yangmao.yangoj.model.DTO.questionSubmit.JudgeInfo;
+import com.yangmao.yangoj.judge.codesandbox.model.JudgeInfo;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Component;
 
 import java.util.List;
-import java.util.stream.Collectors;
 
 /**
  * 默认判题策略

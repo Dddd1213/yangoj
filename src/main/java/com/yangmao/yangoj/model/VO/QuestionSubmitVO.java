@@ -5,19 +5,15 @@ import com.baomidou.mybatisplus.annotation.FieldFill;
 import com.baomidou.mybatisplus.annotation.IdType;
 import com.baomidou.mybatisplus.annotation.TableField;
 import com.baomidou.mybatisplus.annotation.TableId;
-import com.yangmao.yangoj.model.DTO.question.JudgeConfig;
-import com.yangmao.yangoj.model.DTO.questionSubmit.JudgeInfo;
-import com.yangmao.yangoj.model.entity.Question;
+import com.yangmao.yangoj.judge.codesandbox.model.JudgeInfo;
 import com.yangmao.yangoj.model.entity.QuestionSubmit;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Builder;
 import lombok.Data;
-import org.apache.commons.lang3.ObjectUtils;
 import org.springframework.beans.BeanUtils;
 
 import java.io.Serializable;
 import java.util.Date;
-import java.util.List;
 
 //主要就改了judgeInfo的类型
 @Builder

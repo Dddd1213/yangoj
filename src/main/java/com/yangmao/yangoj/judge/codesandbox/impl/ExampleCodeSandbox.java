@@ -6,10 +6,9 @@ import com.yangmao.yangoj.common.enumeration.QuestionSubmitStatusEnum;
 import com.yangmao.yangoj.judge.codesandbox.CodeSandbox;
 import com.yangmao.yangoj.judge.codesandbox.model.ExecuteCodeRequest;
 import com.yangmao.yangoj.judge.codesandbox.model.ExecuteCodeResponse;
-import com.yangmao.yangoj.model.DTO.questionSubmit.JudgeInfo;
+import com.yangmao.yangoj.judge.codesandbox.model.JudgeInfo;
 import org.springframework.stereotype.Component;
 
-import java.io.OutputStream;
 import java.util.ArrayList;
 
 /**

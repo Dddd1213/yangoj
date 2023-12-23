@@ -15,6 +15,7 @@ import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.yangmao.yangoj.service.UserService;
 import lombok.RequiredArgsConstructor;
 import org.springframework.beans.BeanUtils;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Lazy;
 import org.springframework.stereotype.Service;
 
@@ -36,9 +37,10 @@ public class QuestionSubmitServiceImpl extends ServiceImpl<QuestionSubmitMapper,
     @Resource
     private UserService userService;
 
-    @Resource
+    @Autowired
     @Lazy
     private JudgeService judgeService;
+
 
     @Override
     public long addQuestionSubmit(AddQuestionSubmitDTO addQuestionSubmitDTO, HttpServletRequest request) {

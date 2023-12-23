@@ -2,8 +2,6 @@ package com.yangmao.yangoj.judge.service.impl;
 
 import cn.hutool.json.JSONUtil;
 import com.yangmao.yangoj.common.enumeration.ErrorCode;
-import com.yangmao.yangoj.common.enumeration.QuestionSubmitJudgeInfoEnum;
-import com.yangmao.yangoj.common.enumeration.QuestionSubmitLanguageEnum;
 import com.yangmao.yangoj.common.enumeration.QuestionSubmitStatusEnum;
 import com.yangmao.yangoj.common.exception.BusinessException;
 import com.yangmao.yangoj.judge.codesandbox.CodeSandbox;
@@ -15,7 +13,7 @@ import com.yangmao.yangoj.judge.strategy.JudgeStrategy;
 import com.yangmao.yangoj.judge.strategy.JudgeStrategyFactory;
 import com.yangmao.yangoj.model.DTO.question.JudgeCase;
 import com.yangmao.yangoj.model.DTO.question.JudgeConfig;
-import com.yangmao.yangoj.model.DTO.questionSubmit.JudgeInfo;
+import com.yangmao.yangoj.judge.codesandbox.model.JudgeInfo;
 import com.yangmao.yangoj.model.VO.QuestionSubmitVO;
 import com.yangmao.yangoj.model.entity.Question;
 import com.yangmao.yangoj.model.entity.QuestionSubmit;
